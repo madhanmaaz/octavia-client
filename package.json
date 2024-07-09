@@ -1,6 +1,6 @@
 {
   "name": "octavia-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "octavia-client is a client for an octavia-api.",
   "main": "index.js",
   "scripts": {

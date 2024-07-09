@@ -83,7 +83,7 @@ class Collection extends Requestor {
      * @returns {object|undefined} - The matching data object, or undefined if no match is found.
      */
     async find(query) {
-        return await (await this.makeRequest(
+        const response = await (await this.makeRequest(
             OctaviaCode.TAR_COLLECTION,
             OctaviaCode.MET_FIND,
             {
@@ -92,6 +92,12 @@ class Collection extends Requestor {
                 data: query
             }
         )).data
+
+        if (typeof response === "string" || response === '') {
+            return undefined
+        }
+
+        return response
     }
 
     /**
