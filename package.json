@@ -1,0 +1,39 @@
+{
+  "name": "octavia-client",
+  "version": "1.0.0",
+  "description": "octavia-client is a client for an octavia-api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhanmaaz/octavia-client.git"
+  },
+  "keywords": [
+    "database",
+    "database-api",
+    "encryption",
+    "nodejs",
+    "octaviadb",
+    "octavia-db",
+    "octavia-api",
+    "octavia-client",
+    "express-database",
+    "express-database-api",
+    "octavia-database",
+    "octavia-database-api",
+    "express-db",
+    "express-db-api",
+    "express-db-api-client"
+  ],
+  "bugs": {
+    "url": "https://github.com/madhanmaaz/octavia-client/issues"
+  },
+  "homepage": "https://github.com/madhanmaaz/octavia-client#readme",
+  "author": "madhanmaaz",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}
